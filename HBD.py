@@ -1,0 +1,150 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "id": "f848caf8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "이름을 입력해주세요.서휘\n",
+      "처..\n",
+      "리..\n",
+      "중..\n",
+      "서휘 의 주변 지인들에게 자동으로 파티 초대 메세지를 전송 했습니다!\n",
+      "농담입니다..ㅎ\n",
+      "5초의 시간 동안 이어폰을 연결하거나 소리를 적정량으로 줄여주세요^^\n",
+      "자~~~~\n",
+      "생일 축하~ 합니다~~\n",
+      "생일 축하~ 합니다~~\n",
+      "사랑하는...\n",
+      "서휘\n",
+      "생~~일~~ 축하~~~~~~ 합니다!\n"
+     ]
+    }
+   ],
+   "source": [
+    "import winsound\n",
+    "import time\n",
+    "\n",
+    "Scale_Frequency = {'C3':130, 'C#3':138, 'D3':146, 'D#3':155, \n",
+    "                   'E3':164, 'F3':174, 'F#3':185,'G3':196, \n",
+    "                   'G#3':207, 'A3':220, 'A#3':238, 'B3':246,\n",
+    "                   'C4':261, 'C#4':277, 'D4':293, 'D#':311, \n",
+    "                   'E4':329, 'F4':349, 'F#4':369,'G4':392, \n",
+    "                   'G#4':415, 'A4':440, 'A#4':466, 'B4':493,\n",
+    "                   'C5':523, 'C#5':554, 'D5':587, 'D#5':622, \n",
+    "                   'E5':659, 'F5':698, 'F#5':739,'G5':789, \n",
+    "                   'G#5':830, 'A5':880, 'A#5':932, 'B5':987, 'C6':1046}\n",
+    "\n",
+    "def note(pitch, duration):\n",
+    "    winsound.Beep(frequency=Scale_Frequency[pitch], duration=duration)\n",
+    "\n",
+    "\n",
+    "    \n",
+    "def HBD_Song():\n",
+    "    print('생일 축하~ 합니다~~')\n",
+    "    note('C5', 300)\n",
+    "    note('C5', 300)\n",
+    "    note('D5', 600)\n",
+    "    note('C5', 600)\n",
+    "    note('F5', 800)\n",
+    "    note('E5', 600)\n",
+    "    time.sleep(0.5)\n",
+    "\n",
+    "    print('생일 축하~ 합니다~~')\n",
+    "    note('C5', 300)\n",
+    "    note('C5', 300)\n",
+    "    note('D5', 600)\n",
+    "    note('C5', 600)\n",
+    "    note('G5', 800)\n",
+    "    note('F5', 600)\n",
+    "    time.sleep(0.5)\n",
+    "\n",
+    "    print('사랑하는...')\n",
+    "    print(name)\n",
+    "    note('C5', 300)\n",
+    "    note('C5', 300)\n",
+    "    note('C6', 1000)\n",
+    "    note('A5', 800)\n",
+    "    note('F5', 800)\n",
+    "    note('E5', 800)\n",
+    "    note('D5', 1000)\n",
+    "    time.sleep(1)\n",
+    "\n",
+    "    print('생~~일~~ 축하~~~~~~ 합니다!')\n",
+    "    note('A#5', 400)\n",
+    "    note('A#5', 600)\n",
+    "    note('A5', 800)\n",
+    "    note('F5', 700)\n",
+    "    note('G5', 1700)\n",
+    "    note('F5', 300)\n",
+    "    \n",
+    "    print('짝짝짝짝짝짝짝')\n",
+    "    \n",
+    "name = input('이름을 입력해주세요.')\n",
+    "time.sleep(1)\n",
+    "print('처..')\n",
+    "time.sleep(1)\n",
+    "print('리..')\n",
+    "time.sleep(1)\n",
+    "print('중..')\n",
+    "time.sleep(2)\n",
+    "print(name,'의 주변 지인들에게 자동으로 파티 초대 메세지를 전송 했습니다!')\n",
+    "time.sleep(2)\n",
+    "print('농담입니다..ㅎ')\n",
+    "time.sleep(1)\n",
+    "print('5초의 시간 동안 이어폰을 연결하거나 소리를 적정량으로 줄여주세요^^')\n",
+    "time.sleep(5)\n",
+    "print('자~~~~')\n",
+    "time.sleep(2)\n",
+    "\n",
+    "HBD_Song()\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 85,
+   "id": "76f2d512",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "HBD_Song()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e2670668",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
