@@ -60,7 +60,7 @@ def HBD_Song():
     print('짝짝짝짝짝짝짝')
     time.sleep(10)
     
-name = input('이름을 입력해주세요.')
+name = input('이름을 입력해주세요.(글자가 안 보인다면 스페이스 한번!) \n>>')
 print()
 time.sleep(1)
 
@@ -85,6 +85,7 @@ print()
 time.sleep(5)
 
 print('자~~~~')
+print()
 time.sleep(2)
 
 HBD_Song()
