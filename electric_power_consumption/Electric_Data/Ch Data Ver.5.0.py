@@ -9,10 +9,10 @@ from datetime import datetime
 import os
 import csv
 import time
+print('Module Import Done.')
 
 ch1 = pd.read_csv('./channel_1.dat', names=['Unix', 'Watt'],header=None, delimiter=" ")
 print('Done!')
-
 ch1.info()
 
 ch1_date = pd.DataFrame(ch1,columns = ['Unix', 'Date', 'Watt'])
