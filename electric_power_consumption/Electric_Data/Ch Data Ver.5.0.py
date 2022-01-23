@@ -12,7 +12,7 @@ import time
 print('Module Import Done.')
 
 ch1 = pd.read_csv('./channel_1.dat', names=['Unix', 'Watt'],header=None, delimiter=" ")
-print('Done!')
+print('Dat File Read Done!')
 ch1.info()
 
 ch1_date = pd.DataFrame(ch1,columns = ['Unix', 'Date', 'Watt'])
@@ -24,7 +24,7 @@ ch1_date.head(10)
 try:
     os.mkdir('./Electirc_Data_CSV')
 except FileExistsError:
-    print('해당 폴더가 이미 존재합니다.\n폴더를 확인해주세요.')
+    print('*해당 폴더가 이미 존재합니다.\n폴더를 확인해주세요.')
     
 
 month = {1:31, 2:28, 3:31, 4:30, 5:31, 6:30, 7:31, 8:31, 9:30, 10:31, 11:30, 12:31}
