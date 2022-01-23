@@ -24,7 +24,7 @@ ch1_date.head(10)
 try:
     os.mkdir('./Electirc_Data_CSV')
 except FileExistsError:
-    print('해당 폴더가 이미 존재합니다.\n폴더를 확인해주세요.')
+    print('*해당 폴더가 이미 존재합니다.\n폴더를 확인해주세요.')
     
 
 month = {1:31, 2:28, 3:31, 4:30, 5:31, 6:30, 7:31, 8:31, 9:30, 10:31, 11:30, 12:31}
