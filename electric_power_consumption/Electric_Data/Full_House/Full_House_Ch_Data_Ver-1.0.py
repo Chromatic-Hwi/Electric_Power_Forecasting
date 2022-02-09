@@ -9,9 +9,14 @@ from datetime import datetime
 import os
 import csv
 import time
+import datetime
+now = datetime.datetime.now()
+TimeNow = now.strftime('%Y-%m-%d  %H:%M:%S')
 print('Module Import Done.\n')
 
 month = {1:31, 2:28, 3:31, 4:30, 5:31, 6:30, 7:31, 8:31, 9:30, 10:31, 11:30, 12:31}
+
+print('Start Time >>', TimeNow,'\n')
 
 for Total_num in range(2, 54):
 
@@ -268,3 +273,6 @@ for Total_num in range(2, 54):
 
     print('Single Channel Done!!')
     time.sleep(5)
+
+print('Total Job Done!!\n')
+print('End Time >>', TimeNow)
