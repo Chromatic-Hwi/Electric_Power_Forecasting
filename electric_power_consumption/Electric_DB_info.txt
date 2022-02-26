@@ -1,0 +1,6 @@
+Hwi
+1223
+localhost
+127.19.12.23
+3306
+combined_data
