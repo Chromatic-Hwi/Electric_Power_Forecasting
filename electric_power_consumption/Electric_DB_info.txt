@@ -1,6 +1,0 @@
-Hwi
-1223
-localhost
-192.168.0.141
-3306
-combined_data
