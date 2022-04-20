@@ -1,0 +1,6 @@
+데이터셋(X) 구성(batch_size, window_size, feature갯수): (128, 1, 1, 1)
+데이터셋(Y) 구성(batch_size, window_size, feature갯수): (128, 1, 1)
+wandb: Currently logged in as: chromatic-hwi (use `wandb login --relogin` to force relogin)
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Error while calling W&B API: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand. (<Response [400]>)
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Error while calling W&B API: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand. (<Response [400]>)
+W&B offline, running your script from this directory will only write metadata locally.

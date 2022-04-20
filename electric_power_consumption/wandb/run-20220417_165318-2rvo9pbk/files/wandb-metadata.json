@@ -1,0 +1,20 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-04-17T07:53:36.828516",
+    "startedAt": "2022-04-17T07:53:18.051129",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1660 SUPER",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\82108\\AppData\\Roaming\\jupyter\\runtime\\kernel-ab9b41f7-e17f-4287-9abf-7eb7b737972e.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "DESKTOP-AUDBVNJ",
+    "username": "82108",
+    "executable": "C:\\Users\\82108\\anaconda3\\python.exe"
+}
